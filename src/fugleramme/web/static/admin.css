@@ -148,6 +148,8 @@ ul.species li.problem { color: #a4392f; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .spinner { animation: none; } }
 @media (max-width: 40rem) {
+  nav.tabs { gap: 0; }
+  nav.tabs button { flex: 1; font-size: 0.9rem; padding: 0.4rem 0.25rem; }
   .cols { flex-direction: column; }
   form.settings { flex: none; }
 }
