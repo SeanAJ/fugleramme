@@ -392,7 +392,7 @@
     "url": "https://archive.org/download/birdsofcaliforni01daws/page/n92.jpg"
   },
   "birds/aphelocoma-woodhouseii.webp": {
-    "source": "emory-boundary-survey",
+    "source": "emory",
     "url": "https://archive.org/details/mobot31753002023650/page/n144/mode/1up"
   },
   "birds/apus-apus.webp": {
@@ -2076,7 +2076,7 @@
     "url": "https://www.biodiversitylibrary.org/page/38625673"
   },
   "birds/gavia-adamsii.webp": {
-    "source": "ibis",
+    "source": "smit",
     "url": "https://archive.org/details/ibis661894188994brit/page/n704"
   },
   "birds/gavia-arctica-2.webp": {
@@ -3956,7 +3956,7 @@
     "url": "https://commons.wikimedia.org/wiki/File:Robert_Havell_after_John_James_Audubon,_Brown-Headed_Nuthatch,_1831,_NGA_32266.jpg"
   },
   "birds/sitta-pygmaea.webp": {
-    "source": "birdlore-fuertes",
+    "source": "fuertes",
     "url": "https://commons.wikimedia.org/wiki/File:Bird-lore_(1915)_(14755098432).jpg"
   },
   "birds/somateria-mollissima-2.webp": {
