@@ -190,3 +190,7 @@ CC BY 2.0. Manifest key: `jardine`.
 **Emory (Boundary Survey)** - *Report on the United States and Mexican boundary survey* (1857-1859), directed by **William H. Emory**, with ornithology by **Spencer Fullerton Baird**. Missouri Botanical Garden Library scan via [Internet Archive / BHL](https://archive.org/details/mobot31753002023650). Public domain. Manifest key: `emory-boundary-survey`.
 
 **Reed** - *The Bird Book* by **Chester A. Reed** (Worcester, Mass.: C. K. Reed, 1914). Prelinger Library scan via the [Internet Archive](https://archive.org/details/birdbookillustra00reedrich). Public domain (published in the US before 1929; Reed died 1912). Manifest key: `reed`.
+
+**Wolf** - a plate drawn and lithographed by **Joseph Wolf** for the *Proceedings of the Zoological Society of London* (1851), printed by **M. & N. Hanhart**, Natural History Museum Library scan via the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/item/96443) and the [Internet Archive](https://archive.org/details/proceedingsofgen51zool), and Wikimedia Commons. Public domain (PD-old-100; Wolf died 1899). Manifest key: `wolf`.
+
+**Descourtilz** - *Ornithologie Brésilienne, ou, Histoire des oiseaux du Brésil* by **Jean Théodore Descourtilz** (Rio de Janeiro: Thomas Reeves, 1854), lithographed by **Waterlow and Sons**, Smithsonian Libraries scan via the [Internet Archive](https://archive.org/details/OrnithologieBre00Desc) and Wikimedia Commons. Public domain (Descourtilz died 1855). Manifest key: `descourtilz`.
