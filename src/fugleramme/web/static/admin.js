@@ -96,7 +96,6 @@ for (const hint of document.querySelectorAll(".hint")) {
 document.addEventListener("click", closeHint);
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeHint(); });
 
-// On a phone the header links fold behind #menu; on desktop the button is hidden.
 const menu = document.getElementById("menu");
 const closeMenu = () => menu.setAttribute("aria-expanded", "false");
 menu.addEventListener("click", (e) => {

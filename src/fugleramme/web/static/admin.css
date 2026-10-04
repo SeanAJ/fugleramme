@@ -7,6 +7,11 @@ header nav a { margin-left: 1.25rem; }
         -webkit-tap-highlight-color: transparent; }
 #menu svg { display: block; }
 #menu[aria-expanded="true"] { background: #e8e7f0; }
+footer { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.25rem 0.5rem; margin-top: 3rem; padding-top: 0.75rem;
+         border-top: 1px solid #e5e2dc; font-size: 0.85rem; }
+footer a { color: #666; white-space: nowrap; }
+/* inline-block, or the link's underline runs under the dot too. */
+footer a + a::before { content: "·"; display: inline-block; margin-right: 0.5rem; color: #aaa; }
 h2 { font-size: 1.05rem; margin: 0 0 0.5rem; }
 /* Undoes the page-wide block `span`, which would break a heading over three lines. */
 h2 span { display: inline; font-weight: inherit; margin: 0; }
