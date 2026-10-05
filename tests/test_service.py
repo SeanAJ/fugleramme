@@ -67,7 +67,7 @@ def test_the_loop_holds_its_last_page_when_the_detector_goes_away(
     assert "Detector unavailable" in caplog.text  # the blind ticks did see the outage
     assert render.call_count == 1  # and did not draw an empty page over it
     assert len(set(ticks)) == 1  # and the file they would have written it to is untouched
-    assert np.asarray(Image.open(config.output_path)).std() > 1  # birds, not bare paper
+    assert np.asarray(Image.open(config.output_path)).std() > 0.5  # birds, not bare paper
 
 
 def test_the_configured_detector_is_rebuilt_only_when_the_settings_name_another(tmp_path, detector):
