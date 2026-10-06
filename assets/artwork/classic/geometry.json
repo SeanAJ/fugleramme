@@ -8339,6 +8339,18 @@
    768
   ]
  },
+ "birds/meleagris-gallopavo.webp": {
+  "box": [
+   0.0281,
+   0.0203,
+   0.931,
+   0.9648
+  ],
+  "cut": [
+   973,
+   1200
+  ]
+ },
  "birds/melospiza-melodia.webp": {
   "box": [
    0.1725552749633789,
