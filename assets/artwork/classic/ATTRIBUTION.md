@@ -90,6 +90,7 @@ Public domain (PD-scan / PD-old-70-expired). Manifest key: `greene`.
 Also the octavo edition, *The birds of America, from drawings made in the United
 States and their territories*, with hand-coloured lithographs by **John T. Bowen**:
 Internet Archive scans via Wikimedia Commons (no known copyright restrictions),
+Biodiversity Heritage Library scans via Wikimedia Commons (CC BY 2.0),
 and [Metropolitan Museum of Art](https://www.metmuseum.org/art/collection) scans
 (CC0).
 
