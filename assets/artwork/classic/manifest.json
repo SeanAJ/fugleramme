@@ -115,6 +115,14 @@
     "source": "gould",
     "url": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeICinerousVulture.jpg"
   },
+  "birds/aethopyga-christinae-2.webp": {
+    "source": "keulemans",
+    "url": "https://archive.org/details/ibis61870brit/page/n605/mode/1up"
+  },
+  "birds/aethopyga-christinae.webp": {
+    "source": "keulemans",
+    "url": "https://archive.org/details/ibis631891brit/page/n697/mode/1up"
+  },
   "birds/agelaius-phoeniceus-2.webp": {
     "source": "audubon",
     "url": "https://media.audubon.org/boa_illustration/plate-67-red-winged-starling.jpg"
@@ -2435,6 +2443,18 @@
     "source": "dresser",
     "url": "https://archive.org/details/historyofbirdsof13dres/page/n547/mode/1up"
   },
+  "birds/lanius-schach-2.webp": {
+    "source": "gould",
+    "url": "https://archive.org/details/centurybirdsfro00Goul/page/n63/mode/1up"
+  },
+  "birds/lanius-schach-3.webp": {
+    "source": "jerdon",
+    "url": "https://archive.org/details/illustrationsofi00jerd/page/n99/mode/1up"
+  },
+  "birds/lanius-schach.webp": {
+    "source": "swainson",
+    "url": "https://archive.org/details/fasciculusbirds00gray/page/n20/mode/1up"
+  },
   "birds/lanius-senator.webp": {
     "source": "gould",
     "url": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIIWoodchat.jpg"
@@ -3683,6 +3703,14 @@
     "source": "keulemans",
     "url": "https://commons.wikimedia.org/wiki/File:PriniaBrachypteryxKeulemans.jpg"
   },
+  "birds/prinia-inornata-2.webp": {
+    "source": "legge",
+    "url": "https://archive.org/details/historyofbirdsof01legg/page/n637/mode/1up"
+  },
+  "birds/prinia-inornata.webp": {
+    "source": "keulemans",
+    "url": "https://www.biodiversitylibrary.org/page/47162033"
+  },
   "birds/prunella-collaris.webp": {
     "source": "gould",
     "url": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIIAlpine_Accentor.jpg"
@@ -3746,6 +3774,14 @@
   "birds/puffinus-puffinus.webp": {
     "source": "gould",
     "url": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeVManks_Shearwater.jpg"
+  },
+  "birds/pycnonotus-aurigaster-2.webp": {
+    "source": "arnoul",
+    "url": "https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001200136039/IMG00000101"
+  },
+  "birds/pycnonotus-aurigaster.webp": {
+    "source": "cassin",
+    "url": "https://archive.org/details/narrativeofexped02perry/page/n280/mode/1up"
   },
   "birds/pycnonotus-barbatus.webp": {
     "source": "keulemans",
@@ -4506,6 +4542,10 @@
   "birds/turdus-iliacus.webp": {
     "source": "gould",
     "url": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIISongthrushRedwing.jpg"
+  },
+  "birds/turdus-mandarinus.webp": {
+    "source": "keulemans",
+    "url": "https://www.biodiversitylibrary.org/page/40241014"
   },
   "birds/turdus-merula-2.webp": {
     "source": "vonwright",

@@ -51,7 +51,9 @@ Manifest key: `dresser`.
 *Onze vogels in huis en tuin* (1869-1876), from the Commons category
 [Onze vogels in huis en tuin](https://commons.wikimedia.org/wiki/Category:Onze_vogels_in_huis_en_tuin)
 and the Internet Archive; the *Proceedings of the Zoological Society of London*
-(1871); *The Ibis* (1877); the *Catalogue of the Birds in the British Museum*, vol. 5 (1881);
+(1871); *The Ibis* (1870, 1877 and 1891); the *Catalogue of the Birds in the British Museum*, vol. 5 (1881);
+*Lahore to Yarkand* by **George Henderson** and **Allan O. Hume** (1873); *A Monograph of the Turdidae*
+by **Henry Seebohm**, edited by **R. B. Sharpe** (1898-1902);
 *A monograph of the Capitonidæ, or scansorial barbets* by **C. H. T. Marshall** and
 **G. F. L. Marshall** (1871); and *The Birds of Australia* by **Gregory M. Mathews**, vol. 3
 (1913-1914), Smithsonian Libraries scans via the
@@ -113,7 +115,7 @@ Public domain (US Federal Government work).
 
 **Hines** - Wildlife illustrations by **Bob Hines** (Robert W. Hines, 1912-1994) for the **U.S. Fish and Wildlife Service**, from the Commons category [Robert W. Hines](https://commons.wikimedia.org/wiki/Category:Robert_W._Hines). Public domain (US Federal Government work). Manifest key: `hines`.
 
-**Cassin** - *Illustrations of the Birds of California, Texas, Oregon, British and Russian America* by **John Cassin** (Philadelphia: J. B. Lippincott & Co., 1862), plates drawn by **George G. White**, put on stone by **William E. Hitchcock**, lithographed, printed and colored by **J. T. Bowen**, Biodiversity Heritage Library scans from the Commons category [Illustrations of the birds of California, Texas, Oregon, British and Russian America](https://commons.wikimedia.org/wiki/Category:Illustrations_of_the_birds_of_California,_Texas,_Oregon,_British_and_Russian_America); and Cassin's birds for the *Narrative of the Expedition of an American Squadron to the China Seas and Japan* (Perry expedition, vol. 2, 1856), lithographed by **William E. Hitchcock**, from the [Wellcome Collection](https://wellcomecollection.org/). Public domain (PD-scan / PD-old-70-expired). Manifest key: `cassin`.
+**Cassin** - *Illustrations of the Birds of California, Texas, Oregon, British and Russian America* by **John Cassin** (Philadelphia: J. B. Lippincott & Co., 1862), plates drawn by **George G. White**, put on stone by **William E. Hitchcock**, lithographed, printed and colored by **J. T. Bowen**, Biodiversity Heritage Library scans from the Commons category [Illustrations of the birds of California, Texas, Oregon, British and Russian America](https://commons.wikimedia.org/wiki/Category:Illustrations_of_the_birds_of_California,_Texas,_Oregon,_British_and_Russian_America); and Cassin's birds for the *Narrative of the Expedition of an American Squadron to the China Seas and Japan* (Perry expedition, vol. 2, 1856), lithographed by **William E. Hitchcock**, from the [Wellcome Collection](https://wellcomecollection.org/) and Smithsonian Libraries scans via the [Internet Archive](https://archive.org/details/narrativeofexped02perry). Public domain (PD-scan / PD-old-70-expired). Manifest key: `cassin`.
 
 **Finch-Davies** - *The game-birds and water-fowl of South Africa* by **Boyd Horsbrugh** (Witherby & Co., London, 1912), plates by **Claude Gibney Finch-Davies** (1875-1920), from the Commons category [The game-birds and water-fowl of South Africa (1912)](https://commons.wikimedia.org/wiki/Category:The_game-birds_and_water-fowl_of_South_Africa_(1912)). Public domain (PD-scan / PD-old-70-expired). Manifest key: `finchdavies`.
 
@@ -138,7 +140,7 @@ Public domain. Manifest key: `legge`.
 
 **Swainson** - *Zoological Illustrations* by
 **William Swainson** (1829), from the [Wikimedia Commons collection](https://commons.wikimedia.org/wiki/Category:Zoological_Illustrations_Volume_I);
-and his plates for *A Fasciculus of the Birds of China* by **G. R. Gray** (1871), Cornell University Library scans via the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/) and the Internet Archive, and *Fauna Boreali-Americana* with **John Richardson** (1831), Smithsonian Libraries scans on the [Internet Archive](https://archive.org/details/faunaborealiamer22rich).
+and his plates for *A Fasciculus of the Birds of China* by **G. R. Gray** (1871), Cornell University Library and Museums Victoria scans via the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/) and the Internet Archive, and *Fauna Boreali-Americana* with **John Richardson** (1831), Smithsonian Libraries scans on the [Internet Archive](https://archive.org/details/faunaborealiamer22rich).
 Public domain. Manifest key: `swainson`.
 
 **Jardine** - *Illustrations of
@@ -162,7 +164,7 @@ CC BY 2.0. Manifest key: `jardine`.
 
 **Siebold** - *Fauna Japonica*, Aves (1844-1850), edited by **Philipp Franz von Siebold** with text by **Coenraad Jacob Temminck** and **Hermann Schlegel**, hand-coloured lithographs. Ernst Mayr Library, Museum of Comparative Zoology, Harvard University scans via the [Internet Archive](https://archive.org/details/faunajaponicasi4sieb). Public domain. Manifest key: `siebold`.
 
-**Arnoul** - plates drawn and lithographed by **Arnoul** for *Les oiseaux de la Chine* by **Armand David** and **Émile Oustalet** (1877). Scans of the Bibliothèque de l'Arsenal copy from [Gallica](https://gallica.bnf.fr/), Bibliothèque nationale de France. Public domain. Manifest key: `arnoul`.
+**Arnoul** - plates drawn and lithographed by **Arnoul** for *Les oiseaux de la Chine* by **Armand David** and **Émile Oustalet** (1877). Scans of the Bibliothèque de l'Arsenal copy from [Gallica](https://gallica.bnf.fr/), Bibliothèque nationale de France, and of the Bibliothèque municipale de Lyon copy from [Numelyo](https://numelyo.bm-lyon.fr/) under the Etalab Licence Ouverte, which asks that the library be credited. Public domain. Manifest key: `arnoul`.
 
 **Temminck** - *Nouveau recueil de planches coloriées d'oiseaux* by **Coenraad Jacob Temminck** and **Meiffren Laugier de Chartrouse** (1820-1839), plates drawn by **Nicolas Huet** and **Jean-Gabriel Prêtre**. Smithsonian Libraries scans via the [Internet Archive](https://archive.org/details/Nouveaurecueild3Temm), also in the Commons category [Nouveau recueil de planches coloriées d'oiseaux](https://commons.wikimedia.org/wiki/Category:Nouveau_recueil_de_planches_colori%C3%A9es_d%27oiseaux). Public domain (PD-scan / PD-old-100). Manifest key: `temminck`.
 
@@ -193,3 +195,5 @@ CC BY 2.0. Manifest key: `jardine`.
 **Wolf** - a plate drawn and lithographed by **Joseph Wolf** for the *Proceedings of the Zoological Society of London* (1851), printed by **M. & N. Hanhart**, Natural History Museum Library scan via the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/item/96443) and the [Internet Archive](https://archive.org/details/proceedingsofgen51zool), and Wikimedia Commons. Public domain (PD-old-100; Wolf died 1899). Manifest key: `wolf`.
 
 **Descourtilz** - *Ornithologie Brésilienne, ou, Histoire des oiseaux du Brésil* by **Jean Théodore Descourtilz** (Rio de Janeiro: Thomas Reeves, 1854), lithographed by **Waterlow and Sons**, Smithsonian Libraries scan via the [Internet Archive](https://archive.org/details/OrnithologieBre00Desc) and Wikimedia Commons. Public domain (Descourtilz died 1855). Manifest key: `descourtilz`.
+
+**Jerdon** - *Illustrations of Indian Ornithology* by **T. C. Jerdon** (Madras, 1843-1847), hand-coloured lithographs. Smithsonian Libraries scan via the [Internet Archive](https://archive.org/details/illustrationsofi00jerd). Public domain. Manifest key: `jerdon`.
