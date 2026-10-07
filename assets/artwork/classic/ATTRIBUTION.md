@@ -136,7 +136,7 @@ Public domain. Manifest key: `legge`.
 
 **Dawson** - *The Birds of California* by **William Leon Dawson** (San Diego: South Moulton Company, 1923), color plates by **Allan Brooks**, Biodiversity Heritage Library scan on the [Internet Archive](https://archive.org/details/birdsofcaliforni02daws). Public domain (published in the US before 1929; Brooks died 1946). Manifest key: `dawson`.
 
-**Werner** - plates drawn by **Jean-Charles Werner** for his *Atlas des oiseaux d'Europe*, lithographed by **Langlumé**. Scans from the **Iconographia Zoologica** collection of the **University of Amsterdam** Special Collections (Artis Library), via the Commons category [Iconographia Zoologica](https://commons.wikimedia.org/wiki/Category:Iconographia_Zoologica). Public domain (Commons: public domain). Manifest key: `werner`.
+**Werner** - plates drawn by **Jean-Charles Werner** for his *Atlas des oiseaux d'Europe*, lithographed by **Langlumé**. Scans from the **Iconographia Zoologica** collection of the **University of Amsterdam** Special Collections (Artis Library), via the Commons category [Iconographia Zoologica](https://commons.wikimedia.org/wiki/Category:Iconographia_Zoologica), and Natural History Museum Library, London scans via the [Internet Archive](https://archive.org/details/lesoiseauxdeurop01wern). Public domain (Commons: public domain). Manifest key: `werner`.
 
 **Swainson** - *Zoological Illustrations* by
 **William Swainson** (1829), from the [Wikimedia Commons collection](https://commons.wikimedia.org/wiki/Category:Zoological_Illustrations_Volume_I);
@@ -197,3 +197,5 @@ CC BY 2.0. Manifest key: `jardine`.
 **Descourtilz** - *Ornithologie Brésilienne, ou, Histoire des oiseaux du Brésil* by **Jean Théodore Descourtilz** (Rio de Janeiro: Thomas Reeves, 1854), lithographed by **Waterlow and Sons**, Smithsonian Libraries scan via the [Internet Archive](https://archive.org/details/OrnithologieBre00Desc) and Wikimedia Commons. Public domain (Descourtilz died 1855). Manifest key: `descourtilz`.
 
 **Jerdon** - *Illustrations of Indian Ornithology* by **T. C. Jerdon** (Madras, 1843-1847), hand-coloured lithographs. Smithsonian Libraries scan via the [Internet Archive](https://archive.org/details/illustrationsofi00jerd). Public domain. Manifest key: `jerdon`.
+
+**National Palace Museum** - *Niaopu* (Manual of Birds), the Qing court bird album painted by **Yu Sheng** and **Zhang Weibang** (1750-1761), ink and colour on silk. National Palace Museum, Taipei, open data image via its [digital archive](https://digitalarchive.npm.gov.tw/), [www.npm.gov.tw](https://www.npm.gov.tw). CC BY 4.0. Manifest key: `npm`.

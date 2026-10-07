@@ -1579,6 +1579,18 @@
     "source": "gould",
     "url": "https://archive.org/details/birdsEuropeIIIGoul/page/n282/mode/1up"
   },
+  "birds/cyanopica-cyanus-2.webp": {
+    "source": "werner",
+    "url": "https://archive.org/details/lesoiseauxdeurop01wern/page/n174/mode/1up"
+  },
+  "birds/cyanopica-cyanus-3.webp": {
+    "source": "arnoul",
+    "url": "https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001200136039/IMG00000177"
+  },
+  "birds/cyanopica-cyanus.webp": {
+    "source": "siebold",
+    "url": "https://archive.org/details/faunajaponicasi4sieb/page/n270/mode/1up"
+  },
   "birds/cygnus-columbianus.webp": {
     "source": "gould",
     "url": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeVBewicks_Swan.jpg"
@@ -3359,6 +3371,14 @@
     "source": "gould",
     "url": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIVCommon_Flamingo.jpg"
   },
+  "birds/phoenicurus-auroreus-2.webp": {
+    "source": "arnoul",
+    "url": "https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001200136039/IMG00000061"
+  },
+  "birds/phoenicurus-auroreus.webp": {
+    "source": "siebold",
+    "url": "https://archive.org/details/faunajaponicasi4sieb/page/n220/mode/1up"
+  },
   "birds/phoenicurus-ochruros-2.webp": {
     "source": "vonwright",
     "url": "https://commons.wikimedia.org/wiki/File:Bird_illustration_from_Svenska_F%C3%A5glar_(Swedish_Birds)_by_the_von_Wright_brothers_from_rawpixel%27s_original_edition_of_the_publication_00199.jpg"
@@ -3438,6 +3458,10 @@
   "birds/pica-pica.webp": {
     "source": "gould",
     "url": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14751991055).jpg"
+  },
+  "birds/pica-serica.webp": {
+    "source": "npm",
+    "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/12253?dep=P"
   },
   "birds/picoides-tridactylus-2.webp": {
     "source": "vonwright",
