@@ -11,6 +11,7 @@ Covers `names.py`, `picks.py`, `assets/artwork/` and the curation tooling.
 - Artwork is grouped by **style** into subfolders of `assets/artwork/`, each holding `birds/` and `perches/` beside its `ATTRIBUTION.md` and `manifest.json`, one active at a time (`settings.style`; empty = whichever is present). No union across styles, and a folder with no birds isn't offered at all.
 - `tests/test_artwork_names.py` enforces it: every filename (`perches/` aside) must name a BirdNET species under its current name, be a hybrid (`-x-`), or be a listed exception - the 15 modern names v2.4 has no label for at all, which can never be detected and are kept for the artwork alone. It also pins every detectable plate to a body mass, since `sizes.mass_of` answers a missing row with the dataset median and would quietly draw a large bird at 35g.
 - The variant pick is per species, not per render, persisted to `detector/data/artwork.json` so a restart doesn't reshuffle the page. Only the render loop calls `retain` - the kiosk and admin preview may hold a different lookback. The collage cache key needs nothing extra: picks change only when the species set does.
+- The species page's world map reads a GBIF snapshot filtered to the label set. Refresh it with `tools/species_map.py --gbif` after updating the labels or the alias map, and a couple of times a year (avoid unnecessarily filling git history).
 
 ## Shipped plates
 
