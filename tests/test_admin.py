@@ -308,13 +308,22 @@ def test_a_dimmed_portrait_box_keeps_its_saved_value(tmp_path):
     assert saved.web_lock is False and saved.web_portrait is True
 
 
-def test_with_no_panel_the_lock_is_off_and_undeclared(tmp_path, source):
+def test_with_no_panel_the_lock_is_disabled_declaration_and_all(tmp_path, source):
+    """admin.js enables it once the external panel is ticked; until then a save
+    leaves the stored lock alone."""
     page = _page(tmp_path, source(), detected=False, web_lock=True)
-    assert '<input type="checkbox" name="web_lock" disabled>' in page
-    assert "no panel detected" in page
-    assert not any("web_lock" in value.split() for value in _declared(page))
-    assert _config(page)["panel"] is None  # the preview box takes the web view's shape
+    assert '<input type="checkbox" name="web_lock" checked disabled>' in page
+    assert f'name="{admin.CHECKBOXES}" value="web_lock" disabled>' in page
+    assert f'aria-label="{html.escape(admin.LOCK_OFF, quote=True)}"' in page
+    assert "no panel detected" not in page
+    assert _config(page)["detected"] is False  # the preview box takes the web view's shape
     assert _config(page)["webHeights"]["4K"] == 2160  # the Resolution labels follow the form
+
+
+def test_the_panel_has_a_title_over_its_outputs(tmp_path, source):
+    outputs = re.search(r'<div class="field" id="outputs">.*?</div>', _page(tmp_path, source()))
+    assert outputs.group(0).startswith('<div class="field" id="outputs"><span>Outputs</span>')
+    assert 'name="external_panel"' in outputs.group(0)
 
 
 def test_every_tab_has_the_pane_admin_js_shows(tmp_path, source):
@@ -323,14 +332,19 @@ def test_every_tab_has_the_pane_admin_js_shows(tmp_path, source):
         assert f'id="tab-{tab}"' in page
 
 
-def test_the_margin_offers_each_edge_only_with_a_panel(tmp_path, source):
+def test_the_margin_offers_each_edge_while_there_is_a_panel(tmp_path, source):
     unlocked = {"margin": 6, "margin_lock": False, "margin_top": 12}
     page = _page(tmp_path, source(), **unlocked)
     assert "margin_lock" in _declared(page) and 'name="margin_lock">' in page
     assert 'name="margin_top" min="0" max="25" step="1" value="12"' in page
     assert 'name="margin_left" min="0" max="25" step="1" value="6"' in page
+    assert '<div id="margin-edges">' in page
+    # Rendered all the same, for admin.js to offer once the external panel is ticked.
     bare = _page(tmp_path, source(), detected=False, **unlocked)
-    assert "margin_lock" not in bare and "margin_top" not in bare
+    assert (
+        '<div id="margin-uniform" class="off">' in bare and '<div id="margin-edges" hidden>' in bare
+    )
+    assert 'name="margin_lock" disabled>' in bare
     assert 'name="margin" min="0"' in bare
 
 

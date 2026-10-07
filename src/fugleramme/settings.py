@@ -95,6 +95,8 @@ class Settings:
     web_portrait: bool = False
     # Shapes the panel, and the kiosk while it is locked; only the panel turns the pixels.
     rotation: int = 0
+    # Serves the panel page at /frame.e6 for an external e-ink panel.
+    external_panel: bool = False
     lookback_hours: float = 24
     refresh_minutes: int = 0
     # The collage's own default, as a percent.
@@ -289,6 +291,7 @@ def _coerce(raw: dict, base: Settings | None = None) -> Settings:
             raw.get("web_portrait"), rotation % 180 != 0 if "rotation" in raw else d.web_portrait
         ),
         rotation=rotation,
+        external_panel=_as_bool(raw.get("external_panel"), d.external_panel),
         lookback_hours=_as_hours(raw.get("lookback_hours"), d.lookback_hours),
         refresh_minutes=_as_int(raw.get("refresh_minutes"), d.refresh_minutes, 0, 24 * 60),
         margin=_as_int(raw.get("margin"), d.margin, 0, MARGIN_CEILING),
