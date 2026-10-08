@@ -1,11 +1,9 @@
 # fugleramme
-Bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. On an e-ink panel, a TV, or any screen.
+Bird frame for Raspberry Pi or your homelab - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. On an e-ink panel, a TV, or any screen.
 
 <p align="center">
   <img src="docs/assets/hero.jpg" width="520"
-       alt="The frame on a kitchen windowsill showing six birds heard in the garden, a window feeder on the glass behind it">
-  <br>
-  <em>Sorry about the dirty window - squirrels have been stealing the bird food.</em>
+       alt="The frame standing on a windowsill showing a collage of birds heard in the garden, a window feeder on the glass behind it">
 </p>
 
 <p align="center">
@@ -23,18 +21,13 @@ Bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI,
 > [!IMPORTANT]
 > Fugleramme has been selected for the [GOSIM Spotlight](https://spotlight.gosim.org/shenzhen2026/) at [GOSIM Shenzhen 2026](https://shenzhen2026.gosim.org/). If you're there, come by and say hi!
 
-> [!NOTE]
-> Still in early development: expect the odd bug and a few unpolished edges, with plenty more features to come.
-
-Live on **[fugleramme.arnegiacomo.dev](https://fugleramme.arnegiacomo.dev)** running from my kitchen window and displaying the actual birds currently heard in my garden (Bergen, Norway). See other frames from around the world [here](docs/showcase.md)!
-
-Hardware, install and operations docs: **[arnegiacomo.dev/fugleramme](https://arnegiacomo.dev/fugleramme/)**
+Live demo: **[fugleramme.arnegiacomo.dev](https://fugleramme.arnegiacomo.dev)** shows the birds heard in my garden in Bergen, Norway, right now. More frames around the world in the [Showcase](docs/showcase.md). Full docs: **[arnegiacomo.dev/fugleramme](https://arnegiacomo.dev/fugleramme/)**
 
 ## Inspiration
 
-The look came from a [WWF Verdens naturfond poster by Axel Thorenfeldt](https://www.axelthorenfeldt.com/news/wwf-verdens-naturfonds-fugleskole)
-hanging on my wall, the live-frame idea from Teddy Warner's [AvianVisitors](https://theodore.net/projects/AvianVisitors/) that I saw on Instagram,
-and the detection from [BirdNET-Go](https://github.com/tphakala/birdnet-go) - I wanted a version of that poster showing the actual birds in my garden.
+A [WWF Verdens naturfond poster by Axel Thorenfeldt](https://www.axelthorenfeldt.com/news/wwf-verdens-naturfonds-fugleskole)
+hangs on my wall, and I wanted a version of it showing the actual birds in my garden. Teddy Warner's
+[AvianVisitors](https://theodore.net/projects/AvianVisitors/) gave me the idea of the live e-ink frame.
 
 ## How it works
 
@@ -45,34 +38,53 @@ page, and redraws only when the birds change - on an
 e-ink panel or any screen. An admin page lets you configure what to show, and the frame
 updates itself.
 
-If you already run BirdNET-Go, point the frame at it instead - on the same machine or anywhere else reachable from your network.
+<p align="center">
+  <img src="docs/assets/redraw.gif" width="360"
+       alt="The 13.3-inch e-ink panel flashing through its colours and then drawing a collage of birds">
+  <br>
+  <em>Full e-ink redraw (2x speed).</em>
+</p>
+
+Already run BirdNET-Go? Point the frame at it, on the same machine or anywhere on your network.
 
 > [!TIP]
-> The e-ink panel is what makes it a picture frame, but it isn't required. Without one, Fugleramme runs web-only
-> and the page takes the shape of whatever shows it - a TV, an HDMI display, any device on the network, or even your
-> desktop wallpaper/screensaver. See [Screens](docs/screens.md).
+> The e-ink panel on a Pi is what makes it a picture frame, but neither is required. Fugleramme also runs in a
+> container on basically anything - a homelab, a NAS, an old laptop - and the page takes the shape of whatever
+> shows it: a TV, an HDMI display, an external e-ink panel, any browser, or your desktop wallpaper. Everything
+> runs on your own hardware and works fully offline. See [Container](docs/container.md) and
+> [Screens](docs/screens.md).
 
 ## Hardware
 
-A Raspberry Pi 5, an [Inky Impression 13.3"](https://shop.pimoroni.com/discount/ARNE?redirect=/products/inky-impression)
-(Spectra 6), a mic and an A4 frame. Full parts list, recommendations and alternatives: **[Hardware](docs/hardware.md)**.
+A Raspberry Pi 5, an [Inky Impression](https://shop.pimoroni.com/discount/ARNE?redirect=/products/inky-impression)
+13.3" or 7.3" (Spectra 6), a mic and an IKEA frame. Parts list and supported alternatives in **[Hardware](docs/hardware.md)**,
+putting it together in **[Mounting](docs/mounting.md)**.
 
 I'm affiliated with Pimoroni - buying through the Pimoroni links or using the code `ARNE` at checkout supports this project.
 
 ## Art
 
 Half the point of this project is showing off some amazing public-domain natural-history
-illustrations. Over 1000 cut-outs covering more than 500 species, every one taken from a
+illustrations. Nearly 1200 cut-outs covering over 650 species, every one taken from a
 real plate and hand-curated for this project (no art is AI-generated, though some has been
 retouched with AI).
 
-Each detected species is matched to its illustration, background-removed, and packed onto
-a textured paper page with the larger birds toward the centre, sized by body mass. An empty
-window shows a bare perch.
+Each bird is sized by real body mass, the larger ones toward the centre, on a textured paper page.
 
-Coverage is best across Europe and northern Asia, good in North America, and thinner in the tropics and the southern hemisphere thus far - however, it's quickly growing!
+Coverage is best across Europe and northern Asia, good in North America, and growing elsewhere. Pick your
+location in [Species coverage](https://arnegiacomo.dev/fugleramme/species/) to see which of your local birds are
+covered, or [cut one yourself](docs/adding-artwork.md).
 
-[Species coverage](https://arnegiacomo.dev/fugleramme/species/) has a searchable list of all currently supported species (pick your location to see which of your local birds are supported). See [Adding artwork](docs/adding-artwork.md) for manual cutout steps.
+Species names in 40+ languages, see [Languages](docs/languages.md).
+
+<p align="center">
+  <img src="docs/assets/frame-key.jpg" width="32%"
+       alt="The frame showing a collage with a numbered key of the names in Chinese">
+  <img src="docs/assets/frame-collage.jpg" width="32%"
+       alt="The frame showing a collage of birds">
+  <img src="docs/assets/frame-single.jpg" width="32%"
+       alt="The frame showing a single Eurasian Tree Sparrow with its name and the time it was heard">
+</p>
 
 | No detections | A few visitors | A full garden |
 | :---: | :---: | :---: |
@@ -80,15 +92,14 @@ Coverage is best across Europe and northern Asia, good in North America, and thi
 
 ## Install on a Raspberry Pi
 
-From the pi (assuming you have the hardware up and running):
+On the Pi:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/arnegiacomo/fugleramme/main/install.sh | bash
 ```
 
-Asks where BirdNET-Go should live and which ports to use, clones the repo, installs the required deps, and starts the frame as a systemd service. **NB!** Will probably require a reboot on a fresh system.
-
-From a blank SD card, see the full [install guide](docs/install.md).
+It asks where BirdNET-Go should run and which ports to use, then installs everything and starts the frame as a
+service. A fresh system usually needs a reboot. Starting from a blank SD card? See the [install guide](docs/install.md).
 
 ## Run in a container
 
@@ -122,7 +133,7 @@ The fake detector's flags, and working against a real station instead:
 
 ## Contributing
 
-Contributions are very welcome and encouraged - fixes, docs and artwork most of all. Thanks to
+Contributions are very welcome - fixes, docs and artwork most of all. Thanks to
 [everyone who has contributed](https://github.com/arnegiacomo/fugleramme/graphs/contributors)
 and [sponsored](https://github.com/sponsors/arnegiacomo) so far ❤️
 
@@ -139,7 +150,8 @@ Want to help?
 - **A fix, a doc change, or a bird you have cut** - open a PR, no issue needed
 - **Don't know where to start** - the [good first issues](https://github.com/arnegiacomo/fugleramme/labels/good%20first%20issue)
 
-See **[Contributing](CONTRIBUTING.md)** for more info.
+See **[Contributing](CONTRIBUTING.md)** for more info. For anything else, you can reach me through
+[arnegiacomo.dev](https://arnegiacomo.dev/).
 
 ## Similar projects
 
@@ -182,9 +194,3 @@ Fugleramme shares no code or art with them.
   map, CC BY-SA 4.0 - see [`assets/ATTRIBUTION.md`](assets/ATTRIBUTION.md).
 - Docs search (`docs/assets/fuse.min.js`): [Fuse.js](https://www.fusejs.io/) by
   Kiro Risk, Apache 2.0.
-
-## Contact
-
-Questions and ideas about the project belong in
-[Discussions](https://github.com/arnegiacomo/fugleramme/discussions). For anything
-else, you can reach me through [arnegiacomo.dev](https://arnegiacomo.dev/).
