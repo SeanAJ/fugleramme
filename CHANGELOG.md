@@ -2,6 +2,110 @@
 
 <!-- version list -->
 
+## v0.28.0 (2026-10-08)
+
+### Bug Fixes
+
+- **render**: Boost contrast on the panel, leaving paper and halos
+  ([`af06c97`](https://github.com/arnegiacomo/fugleramme/commit/af06c97806b73efb1d6d66c37c28d1b1a42fb7ba))
+
+### Chores
+
+- **assets**: #192 add three Pitangus sulphuratus
+  ([#220](https://github.com/arnegiacomo/fugleramme/pull/220),
+  [`3d3a467`](https://github.com/arnegiacomo/fugleramme/commit/3d3a46727d255131ead35eaa034a756da04b93b0))
+
+- **assets**: #197 add spodiopsar-cineraceus
+  ([#242](https://github.com/arnegiacomo/fugleramme/pull/242),
+  [`c32b034`](https://github.com/arnegiacomo/fugleramme/commit/c32b034de307cc33f48a25f906e1f7e1295ea249))
+
+- **assets**: #230 #33 add thryomanes-bewickii
+  ([#231](https://github.com/arnegiacomo/fugleramme/pull/231),
+  [`38a40da`](https://github.com/arnegiacomo/fugleramme/commit/38a40da20b1f00b1b3d105221f8b1e8e03e09091))
+
+- **assets**: #33 #226 add sitta-pygmaea-2 from Audubon plate 415
+  ([`a1a4c94`](https://github.com/arnegiacomo/fugleramme/commit/a1a4c944213124f46c56e25b83fa65c8761ea618))
+
+- **assets**: #33 add artwork for Passerina ciris
+  ([#233](https://github.com/arnegiacomo/fugleramme/pull/233),
+  [`d3b3a20`](https://github.com/arnegiacomo/fugleramme/commit/d3b3a20df3903b376fd43cde3dcb00f501dba772))
+
+- **assets**: #33 add certhia-americana ([#237](https://github.com/arnegiacomo/fugleramme/pull/237),
+  [`8a710e8`](https://github.com/arnegiacomo/fugleramme/commit/8a710e8644b5b990c821ffab863963903922c081))
+
+- **assets**: #33 add contopus cooperi, myiarchus crinitus (2) and tyrannus tyrannus
+  ([#235](https://github.com/arnegiacomo/fugleramme/pull/235),
+  [`4148f25`](https://github.com/arnegiacomo/fugleramme/commit/4148f25e73df5ef245546211b47371e93867e514))
+
+- **assets**: #33 add Ixoreus naevius ([#253](https://github.com/arnegiacomo/fugleramme/pull/253),
+  [`48c9571`](https://github.com/arnegiacomo/fugleramme/commit/48c9571513f668ad45121e71d06a58e694b6e00b))
+
+- **assets**: #33 add meleagris gallopavo
+  ([#239](https://github.com/arnegiacomo/fugleramme/pull/239),
+  [`4051973`](https://github.com/arnegiacomo/fugleramme/commit/4051973a2a8e1470b123ea4a041e4e3d973689c6))
+
+- **assets**: #33 add Sturnella neglecta
+  ([#240](https://github.com/arnegiacomo/fugleramme/pull/240),
+  [`b0decfd`](https://github.com/arnegiacomo/fugleramme/commit/b0decfd9c5801e9f8127e7d8bc76edc8fc004b97))
+
+- **assets**: Add 3 China birds
+  ([`450d85b`](https://github.com/arnegiacomo/fugleramme/commit/450d85bda4274c4cb743564b2c947a7481cab365))
+
+- **assets**: Add 5 Guangdong birds
+  ([`2858f56`](https://github.com/arnegiacomo/fugleramme/commit/2858f56449f25a0bb65dca0246bb7e2b59f372df))
+
+- **assets**: Add Australian bar-shouldered dove
+  ([#225](https://github.com/arnegiacomo/fugleramme/pull/225),
+  [`c916e51`](https://github.com/arnegiacomo/fugleramme/commit/c916e51c6e0f3ddb99b8b65497212c5344a8fc97))
+
+- **assets**: Add Australian bell miner ([#246](https://github.com/arnegiacomo/fugleramme/pull/246),
+  [`cb3bfe5`](https://github.com/arnegiacomo/fugleramme/commit/cb3bfe56ac1b71ea2daf10c49aa592337ed30499))
+
+- **assets**: Add Australian blue-faced honeyeater
+  ([#243](https://github.com/arnegiacomo/fugleramme/pull/243),
+  [`76ae059`](https://github.com/arnegiacomo/fugleramme/commit/76ae059a1058e06aad9706170b545589b709e596))
+
+- **assets**: Add Australian little friarbird
+  ([#245](https://github.com/arnegiacomo/fugleramme/pull/245),
+  [`c898a1b`](https://github.com/arnegiacomo/fugleramme/commit/c898a1ba38d951d5c5c70cdf36ef7ad07ee703f8))
+
+- **assets**: Add Australian masked lapwing
+  ([#234](https://github.com/arnegiacomo/fugleramme/pull/234),
+  [`cbedf11`](https://github.com/arnegiacomo/fugleramme/commit/cbedf11b01c04d814e9ae7922c5bc83d0f70d490))
+
+- **assets**: Add Australian raven ([#241](https://github.com/arnegiacomo/fugleramme/pull/241),
+  [`fca7daa`](https://github.com/arnegiacomo/fugleramme/commit/fca7daaa4d8c973607ecf81ccf6b73c5bd13cc07))
+
+- **assets**: Add Australian scarlet myzomela
+  ([#251](https://github.com/arnegiacomo/fugleramme/pull/251),
+  [`3170a9c`](https://github.com/arnegiacomo/fugleramme/commit/3170a9c90ab326637fc7697def258ac27e42bcc1))
+
+- **assets**: Add Australian white-breasted woodswallow
+  ([#244](https://github.com/arnegiacomo/fugleramme/pull/244),
+  [`60ec61a`](https://github.com/arnegiacomo/fugleramme/commit/60ec61a6e00b61bfd08234462804d7cd84ab92b6))
+
+- **assets**: Give each attribution key one person
+  ([`3d7a96c`](https://github.com/arnegiacomo/fugleramme/commit/3d7a96cfc38ee69be3af1f6ca11ecee16bb1b51b))
+
+- **tools**: Add a crop preview page to the plate review
+  ([#249](https://github.com/arnegiacomo/fugleramme/pull/249),
+  [`156908b`](https://github.com/arnegiacomo/fugleramme/commit/156908bf486249b47935b28caaa09c08cb0c0a32))
+
+### Documentation
+
+- Add a coverage world map to the species page
+  ([`6220250`](https://github.com/arnegiacomo/fugleramme/commit/62202503ddd059875367046d472d564840cd9cc6))
+
+### Features
+
+- #247 serve the panel page at /frame.e6 for external e-ink panels
+  ([#247](https://github.com/arnegiacomo/fugleramme/pull/247),
+  [`89ebaa2`](https://github.com/arnegiacomo/fugleramme/commit/89ebaa2d35d65a3b56612218a4a5306ada12f189))
+
+- **i18n**: #238 offer BirdNET-Go's own species language
+  ([`79e7ede`](https://github.com/arnegiacomo/fugleramme/commit/79e7ede98fd8abfa40f01b0bdcd665dca7486583))
+
+
 ## v0.27.1 (2026-10-04)
 
 ### Bug Fixes
