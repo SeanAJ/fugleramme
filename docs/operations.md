@@ -1,6 +1,6 @@
 # Operations
 
-Services and logs. To be written.
+Running the frame day to day: the buttons, updates, ports, the BirdNET-Go address, sign-in and Wi-Fi.
 
 ## Buttons
 

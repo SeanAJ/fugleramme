@@ -1,6 +1,6 @@
 # Fugleramme
 
-Bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. On an e-ink panel, a TV, or any screen.
+Bird frame for Raspberry Pi or your homelab - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. On an e-ink panel, a TV, or any screen.
 
 A mic feeds [BirdNET-Go](https://github.com/tphakala/birdnet-go), which runs
 the BirdNET classifier and owns all detection config. Fugleramme reads its
@@ -16,20 +16,18 @@ same machine or elsewhere.
 | ![No birds detected](assets/empty.png) | ![A few garden birds](assets/few.png) | ![Many garden birds](assets/many.png) |
 
 > [!TIP]
-> Live on **[fugleramme.arnegiacomo.dev](https://fugleramme.arnegiacomo.dev)**
-> running from my kitchen window and displaying the actual birds currently
-> heard in my garden (Bergen, Norway). See other frames from around the world [here](showcase.md)!
+> Live demo: **[fugleramme.arnegiacomo.dev](https://fugleramme.arnegiacomo.dev)**
+> shows the birds heard in my garden in Bergen, Norway, right now. More frames
+> around the world in the [Showcase](showcase.md).
 
 The birds are cut-outs from historic, public-domain natural-history drawings,
-hand-curated for this project - over 1000 of them across more than 500 species.
+hand-curated for this project - nearly 1200 of them across over 650 species.
 Each detected species is matched to its illustration and packed onto a textured paper page - larger birds toward the centre, sized by real body mass.
 
 For more display options see [Display](display.md) and [Frame](frame.md), and for TVs, HDMI and desktops [Screens](screens.md).
 
-> [!NOTE]
-> Still in early development: expect the odd bug and a few unpolished edges, with
-> plenty more features to come. Bug reports and suggestions are very welcome on
-> [GitHub](https://github.com/arnegiacomo/fugleramme/issues).
+Bug reports and suggestions are very welcome on
+[GitHub](https://github.com/arnegiacomo/fugleramme/issues).
 
 ## Docs
 
@@ -44,7 +42,7 @@ For more display options see [Display](display.md) and [Frame](frame.md), and fo
 - **[Frame](frame.md)** - panel refresh, web resolution and margin
 - **[Languages](languages.md)** - language support
 - **[Screens](screens.md)** - a browser, an HDMI screen, a TV or your desktop
-- **[Operations](operations.md)** - buttons, services, logs, updates and authentication
+- **[Operations](operations.md)** - buttons, updates, ports, authentication and Wi-Fi
 - **[Container](container.md)** - running Fugleramme with Docker
 - **[Species coverage](species.md)** - searchable list of currently supported species
 - **[Adding artwork](adding-artwork.md)** - cutting a bird the frame can't draw yet

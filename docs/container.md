@@ -124,5 +124,5 @@ doesn't update on its own.
 | Tag | Moves |
 | --- | --- |
 | `latest` | every release |
-| `0.20` | patches within a minor version |
-| `0.20.1` | never |
+| `0.28` | patches within a minor version |
+| `0.28.0` | never |
