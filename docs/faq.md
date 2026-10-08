@@ -42,6 +42,10 @@ BirdNET works basically everywhere. The artwork is the limiting factor. Coverage
 
 If your local regulars never show up, open a [Missing bird](https://github.com/arnegiacomo/fugleramme/issues/new/choose) issue - that is how the list grows. Better still, [cut one yourself](adding-artwork.md) and open a PR.
 
+## Does it support my language?
+
+The species names come in any of BirdNET-Go's 40+ species languages. Fugleramme's UI currently only supports English. See [Languages](languages.md).
+
 ## Why isn't a bird I heard on the page?
 
 Three possibilities, in the order worth checking:

@@ -47,6 +47,7 @@ nav:
   - Using it:
     - Display: display.md
     - Frame: frame.md
+    - Languages: languages.md
     - Screens: screens.md
     - Operations: operations.md
     - Troubleshooting: troubleshooting.md

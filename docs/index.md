@@ -42,6 +42,7 @@ For more display options see [Display](display.md) and [Frame](frame.md), and fo
   avoiding incorrect detections
 - **[Display](display.md)** - modes, settings and names
 - **[Frame](frame.md)** - panel refresh, web resolution and margin
+- **[Languages](languages.md)** - language support
 - **[Screens](screens.md)** - a browser, an HDMI screen, a TV or your desktop
 - **[Operations](operations.md)** - buttons, services, logs, updates and authentication
 - **[Container](container.md)** - running Fugleramme with Docker
