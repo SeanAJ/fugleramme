@@ -36,6 +36,7 @@ For more display options see [Display](display.md) and [Frame](frame.md), and fo
 - **[Showcase](showcase.md)** - public frames people are running
 - **[FAQ](faq.md)** - Frequently asked questions
 - **[Hardware](hardware.md)** - the parts list with alternatives
+- **[Mounting](mounting.md)** - mounting the panel and the Pi in an IKEA frame
 - **[Install](install.md)** - from a blank SD card to a running frame
 - **[Configuring BirdNET-Go](birdnetgo-config.md)** - the mic, your location, and
   avoiding incorrect detections

@@ -40,6 +40,7 @@ nav:
   - FAQ: faq.md
   - Setup:
     - Hardware: hardware.md
+    - Mounting: mounting.md
     - Install: install.md
     - Container: container.md
     - Configuring BirdNET-Go: birdnetgo-config.md

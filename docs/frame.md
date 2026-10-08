@@ -30,7 +30,7 @@ Without a panel there is nothing to lock to, and therefore the option is disable
 ### Margin
 
 How much space between whats rendered and the edges, as a percentage of the short side. Default is **4%**. Raise it if your frame's passepartout covers the edges of the panel, so the birds don't end up underneath - see
-[cutting the passepartout](hardware.md#cutting-the-passepartout-mostly-relevant-for-full-build).
+[Passepartout](mounting.md#passepartout).
 
 The single-bird modes have a wide border, so only 8% or above affects them.
 

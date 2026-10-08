@@ -106,56 +106,10 @@ the capsule drowns out everything else).
 - **Other boards.** A **Pi 4** and a **Pi Zero 2 W** both work - people are running them, the Zero just renders more slowly. A **Pi 5 with 1 GB** should be plenty for a frame that isn't also classifying. (None of these are officially supported
   yet, only because I don't have units to verify on).
 - **NVMe instead of microSD** spares the card BirdNET-Go's constant writes, but the HAT/Base adds cost, height and heat for a mostly idle workload - and the drives are crazy expensive right now.
-- **Other Inky displays** work, you just lose resolution and size. Alternatively skip the panel: the frame serves the same page as a web kiosk, on a TV, over HDMI or headless - see [Screens](screens.md).
+- **Other Inky displays** work, you just lose resolution and size. The 7.3" fits a smaller frame, see [Mounting](mounting.md). Alternatively skip the panel: the frame serves the same page as a web kiosk, on a TV, over HDMI or headless - see [Screens](screens.md).
 
 ## Enclosure/Frame
 
-The panel board is exactly A4 - 297 x 210 mm - so it fits any A4 picture frame.
-
-I used the IKEA
-[RÖDALM 21x30](https://www.ikea.com/gb/en/p/roedalm-frame-oak-effect-50566393/).
-It sits pretty snug, and at 3 cm it is barely deep enough for the Pi to sit
-inside without touching the wall.
-
-> [!TIP]
-> This frame is cheap, so it lets you mess up a few times without it costing
-> your right kidney.
-
-Front to back:
-
-```
-front                                                          back
-  |
-  +-- plastic front sheet (optional - adds glare, flattens the mat)
-  +-- passepartout, cut down to fit
-  +-- e-ink panel, with the Pi mounted to it on the included screws
-  +-- the frame's own plastic spacer, tightened against the metal fasteners
-  +-- open cavity (let the Pi breathe)
-  x   no backing board
-```
-
-### Cutting the passepartout (mostly relevant for full build)
-
-The included mat is cut for a much smaller picture, so cut your own from it with
-a sharp craft knife and a steel ruler: **20 mm along the short sides, 15 mm
-along the long sides**. That leaves a border wide enough to hide the panel's
-bezel and the edge of the board, without intruding too much on the image.
-
-> [!TIP]
-> Cut against the steel ruler in several light passes rather than one hard one -
-> and buy a spare mat or two or three (recommended from experience).
-
-### Airflow
-
-Leave the backing board out, or cut a big hole in it.
-
-> [!WARNING]
-> The Pi and the active cooler sit in the cavity behind the panel, and the
-> constant BirdNET inference gets them quite hot. Don't close the back up.
-
-Rubber feet in the back corners give the frame some clearance from whatever it
-rests against.
-
-> [!NOTE]
-> Hanging it is still an open problem for me - whatever you come up with has to
-> hold it off the wall, not flat against it.
+Both panels fit an IKEA RÖDALM picture frame, the 13.3" in the 21x30 and the
+7.3" in the 13x18. Putting it together, airflow, and standing or hanging it are in
+[Mounting](mounting.md).
